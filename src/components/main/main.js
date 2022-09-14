@@ -9,6 +9,10 @@ import Stats from '../Stats/Stats';
 import './main.css';
 
 export default function Main() {
+  const [head, setHead] = useState('bird');
+  const [middle, setMiddle] = useState('blue');
+  const [pants, setPants] = useState('blue');
+
   return (
     <main>
       <div className='left'>
