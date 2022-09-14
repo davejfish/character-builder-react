@@ -14,14 +14,14 @@ export default function Main() {
   const [pants, setPants] = useState('blue');
 
   return (
-    <main>
+    <main className='section'>
       <div className='left'>
-        <Controls />
+        <Controls setHead={setHead} setMiddle={setMiddle} setPants={setPants}/>
         <Catchphrases />
         <Stats />
       </div>
       <div className='right'>
-        <Display />
+        <Display head={head} middle={middle} pants={pants} />
       </div>
     </main>
   );

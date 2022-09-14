@@ -2,13 +2,13 @@ import React from 'react';
 
 import './controls.css';
 
-export default function Controls() {
+export default function Controls({ setHead, setMiddle, setPants }) {
   return (
     <div className='controls'>
       <form>
         <label>
           head:
-          <select>
+          <select onClick={(e) => setHead(e.target.value)}>
             <option value='bird'>bird</option>
             <option value='dog'>dog</option>
             <option value='duck'>duck</option>
@@ -17,7 +17,7 @@ export default function Controls() {
         </label>
         <label>
           middle:
-          <select>
+          <select onClick={(e) => setMiddle(e.target.value)}>
             <option value='blue'>blue</option>
             <option value='dress'>dress</option>
             <option value='pink'>pink</option>
@@ -26,7 +26,7 @@ export default function Controls() {
         </label>
         <label>
           pants:
-          <select>
+          <select onClick={(e) => setPants(e.target.value)}>
             <option value='blue'>blue</option>
             <option value='dog'>dog</option>
             <option value='leg'>leg</option>
