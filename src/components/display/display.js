@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 import './display.css';
 
-export default function display() {
+export default function Display() {
   return (
     <div>display</div>
-  )
+  );
 }

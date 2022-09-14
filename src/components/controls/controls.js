@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 import './controls.css';
 
-export default function controls() {
+export default function Controls() {
   return (
     <div>controls</div>
-  )
+  );
 }
