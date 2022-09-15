@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  max-width: 800px;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.right {
+  justify-content: center;
+}
+
+.left {
+  margin-top: 40px;
+}

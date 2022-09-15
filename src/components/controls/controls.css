@@ -1,0 +1,16 @@
+.controls {
+  width: 200px;
+  border: solid 3px black;
+  background-color: steelblue;
+  padding: 10px;
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form select {
+  margin: 10px;
+}
