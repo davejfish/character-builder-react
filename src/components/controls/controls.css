@@ -1,6 +1,7 @@
 .controls {
   width: 200px;
   border: solid 3px black;
+  background-color: steelblue;
   padding: 10px;
   margin: 10px;
 }

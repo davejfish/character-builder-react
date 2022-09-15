@@ -1,4 +1,7 @@
 body {
   display: flex;
   justify-content: center;
+  background-image: url('../public/stormtrooper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
