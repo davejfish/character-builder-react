@@ -15,6 +15,7 @@ export default function Main() {
   const [headChange, setHeadChange] = useState(0);
   const [middleChange, setMiddleChange] = useState(0);
   const [pantsChange, setPantsChange] = useState(0);
+  const [catchphrases, setCatchphrases] = useState([]);
 
   return (
     <main className='section'>
@@ -27,11 +28,19 @@ export default function Main() {
           setMiddleChange={setMiddleChange}
           setPantsChange={setPantsChange}
         />
-        <Catchphrases />
-        <Stats headChange={headChange} middleChange={middleChange} pantsChange={pantsChange}/>
+        <Catchphrases setCatchphrases={setCatchphrases} catchphrases={catchphrases}/>
+        <Stats 
+          headChange={headChange} 
+          middleChange={middleChange} 
+          pantsChange={pantsChange}
+          catchphrases={catchphrases}/>
       </div>
       <div className='right'>
-        <Display head={head} middle={middle} pants={pants} />
+        <Display 
+          head={head} 
+          middle={middle} 
+          pants={pants}
+        />
       </div>
     </main>
   );

@@ -1,0 +1,13 @@
+textarea {
+  width: 220px;
+}
+
+.displayContents {
+  display: contents;
+}
+
+.submit {
+  width: fit-content;
+  align-self: center;
+  margin: 5px;
+}
