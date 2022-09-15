@@ -1,10 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
 
-import Display from '../Display/Display';
-import Controls from '../Controls/Controls';
-import Catchphrases from '../Catchphrases/Catchphrases';
-import Stats from '../Stats/Stats';
+import Display from '../display/display';
+import Controls from '../controls/controls';
+import Catchphrases from '../catchphrases/catchphrases';
+import Stats from '../stats/stats';
 
 import './main.css';
 
