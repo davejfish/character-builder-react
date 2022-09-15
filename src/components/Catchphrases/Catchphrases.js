@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import './catchphrase.css';
 
-export default function Catchphrase({ setCatchphrases }) {
+export default function Catchphrases({ setCatchphrases }) {
   const [currentPhrase, setCurrentPhrase] = useState('');
   const handleSavePhrase = () => {
     setCatchphrases((prevState) => [currentPhrase, ...prevState]);
